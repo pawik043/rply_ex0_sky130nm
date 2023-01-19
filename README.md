@@ -1,17 +1,14 @@
 
 # RPLY_EX0_SKY130NM
-
-# Who
-filipjp
-
-# Why
- <explain why you made this module>
-
-# How
- <explain short how you made this module>
+## Author: *Filip Paw*
 
 
-# What
+Repository contains schematic and layout of current mirror designed in 130nm technology. 
+
+The project has been made as a part of **Advanced Integrated Circuit** project 
+realized during Master studies at Norwegian University of Science and Technology, Trondheim. 
+
+## Structure
 
 | What            | Lib/Folder       | Cell/Name |
 | :-              | :-:              | :-:       |
@@ -20,13 +17,13 @@ filipjp
 | LPE             | RPLY_EX0_SKY130NM | RPLY_EX0 |
 
 
-# Changelog/Plan
+## Changelog
 | Version | Status | Comment|
 | :-| :-| :-|
 |0.1.0 | :x: | Make something |
 
 
-# Signal interface
+## Signal interface
 | Signal       | Direction | Domain  | Description                               |
 | :---         | :---:     | :---:   | :---                                      |
 | VDD_1V8         | Input     | VDD_1V8 | Main supply                               |
@@ -34,7 +31,7 @@ filipjp
 | PWRUP_1V8     | Input    | VDD_1V8 | Power up the circuit                       |
 
 
-# Key parameters
+## Key parameters
 | Parameter           | Min     | Typ           | Max     | Unit  |
 | :---                | :-:     | :-:           | :-:     | :---: |
 | Technology          |         | Skywater 130 nm |         |       |
@@ -42,7 +39,7 @@ filipjp
 | Temperature         | -40     | 27            | 125     | C     |
 
 
-# Status
+## Status
 
 | Stage                       | TYPE | Status | Comment                        |
 | :---                        | :-:  | :---:  | :--:                           |
